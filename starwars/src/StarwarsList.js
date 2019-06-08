@@ -4,7 +4,8 @@ import Character from './Characters'
 const StarWarsList = props => {
     return (
 
-        <ul>
+
+        <div className={"list-container"}>
             {props.starwarsChars.map((char, i) => {
                 return (
 
@@ -13,8 +14,8 @@ const StarWarsList = props => {
 
                 );
             })}
-        </ul>
 
+        </div>
     );
 };
 
