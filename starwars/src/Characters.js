@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
 
-function StarwarsCharacters() {
+const Character = props => {
+
+
     return (
-        <div>
-            <h1>React Wars</h1>
+        <div ClassName="">
+            <div>{props.starwarsChars[props.index].name}</div>
         </div>
     );
-}
-
-export default StarwarsCharacters; 
+};
+export default Character; 
