@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.font{
+    color: red;
+    font-size: 50px;
+    border-bottom: 4px solid white;
+    margin-bottom: 20px;
+}
+
+.list-container{
+    max-width: 1400px;
+    margin: auto;
+} 
